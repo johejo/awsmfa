@@ -37,7 +37,7 @@ func main() {
 func run() error {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
 	var credFile string
-	if cf := os.Getenv("AWS_CONFIG_FILE"); cf != "" {
+	if cf := os.Getenv("AWS_SHARED_CREDENTIALS_FILE"); cf != "" {
 		credFile = cf
 	} else {
 		home, err := os.UserHomeDir()
