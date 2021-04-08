@@ -1,5 +1,7 @@
 # awsmfa
 
+[DEPRECATED] Please use [future-architect/awsmfa](https://github.com/future-architect/awsmfa)
+
 A simple tool to update session token for aws cli MFA.
 
 ## Simple Usage
