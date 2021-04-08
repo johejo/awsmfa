@@ -1,0 +1,9 @@
+module github.com/johejo/awsmfa
+
+go 1.16
+
+require (
+	github.com/Songmu/prompter v0.5.0
+	github.com/smartystreets/goconvey v1.6.4 // indirect
+	gopkg.in/ini.v1 v1.62.0
+)
