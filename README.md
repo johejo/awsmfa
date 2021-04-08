@@ -1,6 +1,6 @@
 # awsmfa
 
-A simple tool to update session token for aws cli mfa authentication.
+A simple tool to update session token for aws cli MFA.
 
 ## Simple Usage
 
